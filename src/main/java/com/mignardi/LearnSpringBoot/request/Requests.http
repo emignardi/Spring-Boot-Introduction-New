@@ -1,0 +1,62 @@
+POST http://localhost:8081/student/save
+Content-Type: application/json
+
+{
+  "name": "Eric Mignardi",
+  "email": "mignardi.e@gmail.com"
+}
+
+###
+
+POST http://localhost:8081/student/save
+Content-Type: application/json
+
+{
+  "name": "Tadoe Mignardi",
+  "email": "t@gmail.com"
+}
+
+###
+
+POST http://localhost:8081/student/save
+Content-Type: application/json
+
+{
+  "name": "Bubs Mignardi",
+  "email": "bubby@gmail.com"
+}
+
+###
+
+GET http://localhost:8081/student/all
+Accept: application/json
+
+###
+
+GET http://localhost:8081/student/2
+Accept: application/json
+
+###
+
+GET http://localhost:8081/student/find/t@gmail.com
+Accept: application/json
+
+###
+
+GET http://localhost:8081/student/find?name=Eric Mignardi
+Accept: application/json
+
+###
+
+GET http://localhost:8081/student/findByEmailDomain?domain=gmail.com
+Accept: application/json
+
+###
+
+PUT http://localhost:8081/student/update?id=2&email=m.jasper@outlook.com
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:8081/student/delete/5
+Accept: application/json
