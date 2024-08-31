@@ -2,6 +2,7 @@
 # Spring Boot Introduction (Spring Web, Spring Data JPA)
 
 This application was built as practice to become familiar with the Spring Framework and the Spring Boot Project. REST API that supports basic CRUD operations.
+
 ## Authors
 
 - [@emignardi](https://github.com/emignardi)
